@@ -5,15 +5,15 @@ This code provides an interface for users to generate text and images using Open
 ## How to Run
 1. Clone this repository on your computer.
 2. Obtain an API key from [OpenAI](https://beta.openai.com/signup/).
+   To do that, once signed in to openai, go to https://platform.openai.com/account/api-keys and generate one
 3. Set the `OPENAI_KEY` environment variable to your API key.
-4. In the terminal, navigate to the project directory and run the following command: `cargo run`.
+4. In the terminal, navigate to the project directory and run the following commands:
 
-### example
 ```bash
 # Set the OPENAI_KEY environment variable to your API key
 export OPENAI_KEY=your-api-key-here
 # Run the Python script that uses the OpenAI API
-python my_script.py
+cargo run
 ```
 
 ## Code Overview
